@@ -1,0 +1,23 @@
+export const SHAPE_BACKEND_URL = process.env.REACT_APP_SHAPE_BACKEND_URL || `http://localhost:8000`;
+export const API_PREFIX   = `${SHAPE_BACKEND_URL}/api/v1`
+export const AUTH_PREFIX = `${SHAPE_BACKEND_URL}/api/v1/auth`;
+export const VERIFY_AUTH_TOKEN = `${AUTH_PREFIX}/check-login`;
+export const GOOGLE_LOGIN_API = `${AUTH_PREFIX}/google`;
+export const SIGNUP_API = `${AUTH_PREFIX}/signup`;
+export const VERIFY_OTP = `${AUTH_PREFIX}/verify-otp`;
+export const RESEND_OTP = `${AUTH_PREFIX}/send-otp`;
+export const LOGIN = `${AUTH_PREFIX}/login`;
+export const LOGOUT = `${AUTH_PREFIX}/logout`;
+export const CLIENT_ASSIGNMENTS_API = `${API_PREFIX}/assignments`;
+export const CLIENTS = `${API_PREFIX}/clients`;
+export const CLIENT_API = (clientId) => `${API_PREFIX}/clients/${clientId}`;
+export const PROGRAMS_API = `${API_PREFIX}/programs`;
+export const FOODS_API = `${API_PREFIX}/foods`;
+export const DIET_PLAN_API = `${API_PREFIX}/dietplans`;
+export const HABITS_API = `${API_PREFIX}/habits`;
+export const ASSIGNMENTS_API = `${API_PREFIX}/assignments`;
+export const CHATS_API = `${API_PREFIX}/chats/chat`;
+export const MESSAGES_API = `${API_PREFIX}/messages`;
+export const GENERATE_MESSAGE_API = `${API_PREFIX}/ask`;
+export const RENAME_CHAT_API = `${API_PREFIX}/chat/rename`;
+export const DELETE_CHAT_API = `${API_PREFIX}/chat/delete`;

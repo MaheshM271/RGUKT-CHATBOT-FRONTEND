@@ -1,0 +1,13 @@
+.authTemplateContianer {
+  overflow-x: hidden;
+}
+
+.authImgContainer {
+  padding: 0 48px;
+  
+}
+
+.authImage {
+  max-width: 800px;
+  max-height: calc(100vh - 140px);
+}

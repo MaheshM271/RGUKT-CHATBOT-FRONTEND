@@ -1,0 +1,86 @@
+{
+  "name": "shape-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-oauth/google": "^0.11.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.50",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "antd": "^5.9.0",
+    "antd-phone-input": "^0.3.7",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.11",
+    "gapi-script": "^1.2.0",
+    "highlight.js": "^11.11.1",
+    "jwt-decode": "^4.0.0",
+    "mobx-react": "^9.1.0",
+    "moment": "^2.30.1",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
+    "react-markdown": "^10.1.0",
+    "react-phone-number-input": "^3.4.5",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "rehype-highlight": "^7.0.2",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^3.0.1",
+    "remark-parse": "^11.0.0",
+    "styled-components": "^6.0.8",
+    "typescript": "^4.9.5",
+    "unified": "^11.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "lint": "eslint .",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "craco-alias": "^3.0.1",
+    "husky": "^8.0.3",
+    "jwt-decode": "^4.0.0",
+    "lint-staged": "^15.2.7",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-otp-input": "^3.1.1"
+  },
+  "lint": "./node_modules/.bin/eslint ."
+}

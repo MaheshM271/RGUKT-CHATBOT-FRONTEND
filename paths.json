@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "ui-library": ["src/ui-library"],
+      "components": ["src/components"],
+      "stores": ["src/stores"],
+      "assets": ["src/assets"],
+      "@config": ["src/config"],
+      "service": ["src/service"],
+      "src": ["src"],
+      "hooks": ["src/hooks"],
+      "utils": ["src/utils"]
+    }
+  }
+}

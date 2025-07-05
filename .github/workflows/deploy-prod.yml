@@ -1,0 +1,16 @@
+name: Build & Deploy - Prod
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Amplify Deployment via Webhook
+        run: |
+          AMPLIFY_BUILD_URL="${{ secrets.AMPLIFY_BUILD_URL_PROD }}"
+
+          echo "Triggering Amplify build for production"
+          curl -X POST -d '{}' "$AMPLIFY_BUILD_URL" -H "Content-Type: application/json"

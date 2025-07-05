@@ -1,0 +1,151 @@
+.signup {
+  padding: 24px 32px;
+  border: 1px solid #d0d5dd;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.loginLink {
+  cursor: pointer;
+}
+
+.password-criteria {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.password-criteria p {
+  margin: 0 0 10px;
+}
+
+.password-criteria ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.password-criteria li {
+  display: flex;
+  align-items: center;
+  color: #888;
+}
+
+.valid {
+  color: green;
+}
+
+.password-criteria li .anticon {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .password-criteria {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* General signup form styles */
+.loginFormContianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 30px 0px;
+}
+
+/* Password criteria box */
+.password-criteria {
+  position: absolute;
+  left: -280px;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 300px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.password-criteria p {
+  font-weight: bold;
+}
+
+.password-criteria ul {
+  list-style: none;
+  padding: 0;
+}
+
+.password-criteria li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.password-criteria .valid {
+  color: green;
+}
+
+.password-criteria .invalid {
+  color: #CE5B52;
+}
+
+/* Show password criteria when password field is focused */
+.password-criteria.show {
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .password-criteria {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    /* Ensure it's visible */
+  }
+}
+
+.form {
+  width: 500px;
+}
+
+.inputField {
+  width: 10%;
+}
+
+.input {
+  font-size: 32px;
+  width: 48px !important;
+  line-height: 20px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.input_container {
+  margin-top: 0.375rem;
+}
+
+.error_input {
+  border-color: #ca4139;
+  background-color: #f9e9e8;
+}
+
+.nameContianer {
+  flex: 1 1 0px;
+}
+
+.label {
+  width: 400px;
+}
